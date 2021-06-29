@@ -1,0 +1,25 @@
+.profile {
+  background: rgb(240, 240, 240);
+  padding: 20px;
+  margin: 20px;
+}
+.description {
+  padding: 20px;
+  background: white;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+
+  padding: 0px;
+}
+
+.quantity {
+  display: block;
+}
