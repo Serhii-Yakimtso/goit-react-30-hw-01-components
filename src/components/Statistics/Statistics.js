@@ -7,6 +7,8 @@ const Statistics = ({ title, stats }) => {
 
   return (
     <>
+      <h2>Statistics</h2>
+
       <section className={s.statistics}>
         {title && <h2 className={s.title}>{title}</h2>}
 

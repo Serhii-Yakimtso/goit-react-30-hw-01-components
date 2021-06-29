@@ -15,6 +15,8 @@ const Profile = ({ profileUserData }) => {
 
   return (
     <>
+      <h2>Profile</h2>
+
       <div className={s.profile}>
         <div className={s.description}>
           <img src={avatar} alt={name} width="300" className={s.avatar} />
